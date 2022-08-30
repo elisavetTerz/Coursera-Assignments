@@ -1,3 +1,2 @@
-# Coursera-Assignments
+# Coursera-Assignments 🤸🏽‍♂️🔝
 Coursera Assignments Repository
-
