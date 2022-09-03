@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+.mainheading {
+    font-weight: bold;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;  
+}
+
+h2 {
+    position: relative;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    right: -12px;
+    top: -13px;
+    border: 2px solid black;
+    float: right;
+}
+
+h2.heading1 {
+    background-color: rosybrown;
+}
+
+h2.heading2 {
+    background-color: red;
+    color: white;
+}
+
+h2.heading3 {
+    background-color: yellow;
+}
+
+.p1 {
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 1%;
+}
+
+.p2 {
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 1%;
+}
+
+.p3 {
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 1%;
+}
+
+@media (min-width: 992px) {
+    section {
+        width: 30%;
+        height: 345px;
+        background-color: gray;
+        border: 3px solid black;
+        margin: 10px;
+        float: left;
+        padding: 10px;
+        position: relative;
+    }
+    
+}
+
+/*Medium Devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+        background-color: gray;
+        border: 3px solid black;
+        margin: 10px;
+        float: left;
+        padding: 10px;
+        position: relative;
+    }
+
+    #sec1 {
+        width: 45%;
+        height: 250px;
+    }
+
+    #sec2 {
+        width: 45%;
+        height: 250px;
+    }
+
+    #sec3 {
+        width: 92.1%;
+        height: 200px;
+    }
+}
+
+/* Small Devices */
+@media (max-width: 767px) {
+    section {
+        background-color: gray;
+        border: 3px solid black;
+        margin: 10px;
+        float: left;
+        padding: 10px;
+        position: relative;
+        height: 230px;
+    }
+
+    #sec1 {
+        width: 90%;
+    }
+
+    #sec2 {
+        width: 90%;
+    }
+
+    #sec3 {
+        width: 90%;
+    }
+}
